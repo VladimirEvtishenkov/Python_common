@@ -1,4 +1,4 @@
-#Установка обратного порядка байтов в массиве
+# Установка обратного порядка байтов в массиве
 
 def reverse_bytes(in_bytes):
     out_bytes = bytearray(in_bytes)
