@@ -1,4 +1,7 @@
 # Расчёт CRC-6
+# bits - список битов
+# poly=0x1B - полином x6 + x4 + x3 + x + 1
+# init=0x3F - маска ограничения в 6 бит
 
 def crc6(bits, poly=0x1B, init=0x3F):
     crc = init
